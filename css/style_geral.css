@@ -1,0 +1,63 @@
+img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img:not(#logo), iframe{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	white-space: nowrap;
+}
+
+p{
+	text-align: justify;
+}
+
+#logo{
+	width: 200px;
+}
+
+.pagina{
+	padding: 50px 200px;
+	background-color: #C0C0C0;
+}
+
+.titulo{
+	font-family: "Times New Roman", Times, serif;
+}
+
+.naoChamaAtencao{
+	opacity: 0.6;
+}
+
+strong{
+	font-family:"Times New Roman", Times, serif;
+	font-size: 40px;
+	color: white;
+	background-color: black;
+}
+
+.nome{
+	font-size: 20px;
+}
+
+a{
+	background-image: url(../img/globo.png);
+	background-repeat: no-repeat;
+	padding-left: 20px;
+}
+
+a:link{
+	color: blue;
+}
+a:visited{
+	color:cyan;
+}
+a:hover{
+	color:red;
+}
+a:active{
+	color:gold;
+}
